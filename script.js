@@ -1,4 +1,4 @@
-const name = 'Zach';
+let name = '';
 const prefix = ['the greatest', 'the mostest', 'the biggest', 'the hugest', 'the el chungo grandeist', 'the kingeyest', 'the queenyest'];
 const adjective = ['most adorable', 'most attractive', 'most beautiful', 'most cute', 'most elegent', 'most gorgeous'];
 const adjective2 = ['likeable', 'witty', 'sensible', 'trustworthy', 'sympathetic', 'generous', 'considerate'];
@@ -21,6 +21,6 @@ const randomDescriptor = descriptor => {
 };
 
 
-let positiveMessage = () => {   
+let positiveMessage = (name) => {   
 console.log(`Hello ${name}, you are ${randomPrefix(prefix)}, ${randomAdjective(adjective)} and ${randomAdjective2(adjective2)} ${randomDescriptor(descriptor)} of all time :)`)
 };
