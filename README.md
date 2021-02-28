@@ -1,5 +1,5 @@
 # Positive Message Generator
-(Work in progress. Start Date: 28/02/2021)
+(Start Date: 28/02/2021, Finish Date 28/02/2021)
 
 ## Contents
 
@@ -13,7 +13,7 @@
 
 ### <ins>Intro</ins>
 
-This small script will be used to send nice random nice things to you when called. This ius just a proof of some of the concepts that I have been learning during my brief time coding.
+This small script will be used to send nice random nice things to you when called. This is just a proof of some of the concepts that I have been learning during my brief time coding.
 
 ---
 
@@ -21,7 +21,7 @@ This small script will be used to send nice random nice things to you when calle
 
 * A code editor/IDE that can run JavaScript.  
 * Node.js  
-* Or just copy the code into a web browsers console should work.  
+* Copy the code into a web browsers console should work.  
 * Only one of the above is needed.
 
 ---
@@ -34,9 +34,9 @@ Copy and paste the code into a developer console of the browser or the IDE.
 
 ### <ins>How to Use</ins>
 
-Still  a work in progress, this will be updated when finished. Following code is most likely:
+Call the following line of code and put your name in place of the name arugument. You will need to refresh the page between calls.
 ``` javascript 
-console.log(positiveMessage(name))
+positiveMessage(name)
 ```
 
 ---
