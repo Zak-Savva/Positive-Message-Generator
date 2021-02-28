@@ -36,7 +36,7 @@ Copy and paste the code into a developer console of the browser or the IDE.
 
 Still  a work in progress, this will be updated when finished. Following code is most likely:
 ``` javascript 
-console.log(positiveMessage())
+console.log(positiveMessage(name))
 ```
 
 ---
