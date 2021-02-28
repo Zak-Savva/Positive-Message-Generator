@@ -21,12 +21,6 @@ const randomDescriptor = descriptor => {
 };
 
 
-
-
-
-console.log(randomPrefix(prefix));
-console.log(randomAdjective(adjective));
-console.log(randomAdjective2(adjective2));
-console.log(randomDescriptor(descriptor));
-
-console.log(`Hello ${name}, you are ${prefix[2]}, ${adjective[4]} and ${adjective2[0]} ${descriptor[6]} of all time :)`)
+let positiveMessage = () => {   
+console.log(`Hello ${name}, you are ${randomPrefix(prefix)}, ${randomAdjective(adjective)} and ${randomAdjective2(adjective2)} ${randomDescriptor(descriptor)} of all time :)`)
+};
